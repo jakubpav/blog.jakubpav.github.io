@@ -4,7 +4,7 @@
   "description": "Sources for blog.",
   "main": "eleventy.config.js",
   "scripts": {
-    "build": "rm -r _site && npx @11ty/eleventy",
+    "build": "rm -r docs && npx @11ty/eleventy",
     "develop": "npx @11ty/eleventy --serve --watch"
   },
   "repository": {
